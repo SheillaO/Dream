@@ -17,7 +17,7 @@ A full-stack web application that allows users to record their dreams and receiv
 - **Backend**: Node.js, Express
 - **Database**: SQLite (better-sqlite3)
 - **Frontend**: HTML, CSS, Vanilla JavaScript
-- **AI**: Anthropic Claude API
+- **AI**: Gemini
 
 ## Project Structure
 
@@ -53,11 +53,11 @@ cp .env.example .env
 Edit `.env` and add your Anthropic API key:
 
 ```
-ANTHROPIC_API_KEY=your_api_key_here
+GEMINI_API_KEY=your_api_key_here
 PORT=3000
 ```
 
-Get your API key from: https://console.anthropic.com/
+Get your API key from: https://generativelanguage.googleapis.com/v1beta/openai/
 
 ### 3. Run the Application
 
@@ -100,7 +100,7 @@ Make sure your code is in a Git repository (GitHub, GitLab, etc.)
 ### 3. Add Environment Variables
 
 In the Render dashboard, add:
-- `ANTHROPIC_API_KEY`: Your Anthropic API key
+- `GEMINI_API_KEY`: Your Anthropic API key
 
 ### 4. Deploy
 
